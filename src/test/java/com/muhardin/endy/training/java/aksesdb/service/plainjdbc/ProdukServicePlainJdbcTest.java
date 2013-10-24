@@ -17,9 +17,9 @@ public class ProdukServicePlainJdbcTest extends ProdukServiceTest {
     @Override
     public DataSource getDataSource() {
         MysqlDataSource ds = new MysqlDataSource();
-        ds.setUrl("jdbc:mysql://localhost/belajar");
+        ds.setUrl("jdbc:mysql://localhost/belajar_jdbc");
         ds.setUser("root");
-        ds.setPassword("admin");
+        ds.setPassword("xxxx");
         return ds;
     }
 

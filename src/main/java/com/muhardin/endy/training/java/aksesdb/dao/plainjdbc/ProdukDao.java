@@ -1,4 +1,4 @@
-package com.muhardin.endy.training.java.aksesdb.dao.plainjdbc.newpackage;
+package com.muhardin.endy.training.java.aksesdb.dao.plainjdbc;
 
 import com.muhardin.endy.training.java.aksesdb.domain.Produk;
 import com.muhardin.endy.training.java.aksesdb.service.plainjdbc.PagingHelper;

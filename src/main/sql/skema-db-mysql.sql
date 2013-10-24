@@ -3,7 +3,7 @@ create table m_produk (
     kode varchar(20) not null,
     nama varchar(255) not null,
     harga decimal(19,2) not null
-) engine=InnoDB ;
+) engine=InnoDB;
 
 create table t_penjualan (
     id int primary key auto_increment,

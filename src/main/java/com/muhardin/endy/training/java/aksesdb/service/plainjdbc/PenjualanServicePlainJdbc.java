@@ -1,13 +1,15 @@
 package com.muhardin.endy.training.java.aksesdb.service.plainjdbc;
 
-import com.muhardin.endy.training.java.aksesdb.dao.plainjdbc.newpackage.PenjualanDao;
-import com.muhardin.endy.training.java.aksesdb.dao.plainjdbc.newpackage.ProdukDao;
+import com.muhardin.endy.training.java.aksesdb.dao.plainjdbc.PenjualanDao;
+import com.muhardin.endy.training.java.aksesdb.dao.plainjdbc.ProdukDao;
 import com.muhardin.endy.training.java.aksesdb.domain.Penjualan;
 import com.muhardin.endy.training.java.aksesdb.domain.PenjualanDetail;
 import com.muhardin.endy.training.java.aksesdb.domain.Produk;
 import com.muhardin.endy.training.java.aksesdb.service.PenjualanService;
+
 import java.util.Date;
 import java.util.List;
+
 import javax.sql.DataSource;
 
 public class PenjualanServicePlainJdbc implements PenjualanService {
